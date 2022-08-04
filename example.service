@@ -1,0 +1,9 @@
+[Unit]
+Description=Relay Service
+
+[Service]
+Type=simple
+ExecStart=/home/relay/relay/venv/bin/gunicorn --chdir /home/relay/relay --workers=8 --bind=0.0.0.0 app:app
+
+[Install]
+WantedBy=multi-user.target

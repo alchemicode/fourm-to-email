@@ -1,0 +1,5 @@
+Flask[async]
+flask-cors
+envelopes
+discord-webhook
+toml

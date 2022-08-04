@@ -1,0 +1,12 @@
+[email]
+enabled = true
+from = "johndoe@somewhere.com"
+my_name = "No-Reply Robot"
+to = [ "person1@somewhere.com", "person2@somewhere.com" ]
+password = "StrongAndComplicated"
+server = "smtp.somewhere.com"
+tls = true
+
+[discord]
+enabled = true
+url = "https://webhook.url.goes.here"
